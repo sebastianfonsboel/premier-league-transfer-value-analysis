@@ -4,14 +4,12 @@ An end-to-end SQL and Power BI project analysing the relationship between Premie
 The project introduces a custom **Transfer Value Efficiency** metric to evaluate how effectively clubs converted transfer investment into league points.
 
 ## Dashboard Preview
-<img width="1932" height="1092" alt="image" src="https://github.com/user-attachments/assets/1bda443c-a98d-4aa6-a7c9-3ff2524b8821" />
+<img width="2200" height="1300" alt="image" src="https://github.com/user-attachments/assets/1bda443c-a98d-4aa6-a7c9-3ff2524b8821" />
 
 ## Project Overview
 This project investigates the relationship between transfer spending and Premier League performance across the 2023/24–2025/26 seasons. Rather than focusing solely on total transfer spending, the analysis introduces a custom **Transfer Value Efficiency** metric to evaluate how effectively clubs converted transfer investment into league points.
 
 By combining SQL, Power BI and DAX, the project transforms raw football and transfer data into an interactive dashboard that highlights spending patterns, investment efficiency and notable club case studies.
-
-The findings are presented through an interactive Power BI dashboard featuring KPIs, rankings, visualisations and case studies that highlight different approaches to transfer strategy.
 
 ## Business Problem
 Premier League clubs invest hundreds of millions of euros in player transfers each season with the expectation of improving on-field performance. However, higher transfer spending does not always translate into greater league success.
@@ -56,11 +54,11 @@ The project followed an end-to-end business analytics workflow:
 The project combines data from multiple publicly available sources:
 
 - **Football-Data.co.uk** – Premier League fixture results and league standings (2023/24–2025/26).
-- **Transfermarkt** – Player transfer activity, transfer spending and transfer income.
+- **Transfermarkt** – Player transfer activity, transfer expenditure and transfer income.
 
 ### Data Assumptions
 - Transfer fees marked as "?" were treated as NULL.
-- Players marked as "Without Club" and were treated as €0.
+- Players marked as "Without Club" were treated as €0.
 - Loan transfers were excluded.
 - Only Premier League matches were included when calculating league points.
 
@@ -69,7 +67,7 @@ Traditional transfer analysis often focuses on total spending, but this doesn't 
 
 To address this, I developed a custom **Transfer Value Efficiency** metric:
 
-**Transfer Value Efficiency = (League Points ÷ Total Transfer Spend) x 10**
+**Transfer Value Efficiency = (League Points ÷ Total Transfer Spend) × 10**
 
 *Also referred to as **Points per €10 million Spent**.*
 
@@ -92,7 +90,7 @@ The dashboard was designed to have an intuitive layout and enable interactive ex
 
 ### Visualisations
 - **Scatter plot:** explores the relationship between transfer spending and league performance, with a trend line highlighting the overall relationship.
-- **Horizontal Bar Chart:** Ranks every club by **Transfer Value Efficiency**, highlighting the highest and lowest-performing clubs in this statistic.
+- **Horizontal Bar Chart:** Ranks every club-season by **Transfer Value Efficiency**, highlighting the highest and lowest-performing clubs in this statistic.
 
 ### Interactive Features
 - Custom report-page tooltips displaying detailed club-season statistics.
@@ -110,7 +108,7 @@ The analysis identified several notable insights across the 2023/24–2025/26 Pr
 - Maximising the performance of an existing squad can be just as valuable as significant transfer investment, as demonstrated by Liverpool's 2024/25 Premier League-winning season.
 
 ## Case Studies
-> **Note:** The screenshots below are taken from the dashboard's custom report-page tooltips, providing detailed statistics for each highlighted club-season.
+> **Note:** The screenshots below are taken from the dashboard's custom report-page tooltips, providing detailed club-season statistics for each highlighted club-season.
 ### Case Study 1: 2023/24 Luton Town
 <img width="320" height="340" alt="image" src="https://github.com/user-attachments/assets/5d128886-2021-4dab-924c-2dc0f992a57a" /> 
 
@@ -144,7 +142,7 @@ This suggests that simply increasing transfer expenditure does not guarantee imp
 ### Technologies & Tools
 - SQL
 - Microsoft SQL Server
-- SQL Server Management Studio (SMSS)
+- SQL Server Management Studio (SSMS)
 - Power BI
 - DAX
 - GitHub
@@ -184,3 +182,8 @@ Potential future improvements include:
 - Extend the project to other European leagues for cross-league comparison.
 - Include advanced football metrics (e.g. Expected Goals (xG), possession statistics and defensive performance) to provide additional context beyond league points.
 - Develop predictive models to estimate future league performance based on transfer activity and historical trends.
+
+## Conclusion
+This project demonstrates how SQL and Power BI can be combined to transform raw football and transfer market data into actionable business insights.
+
+By developing a custom Transfer Value Efficiency metric, the analysis showed that while greater transfer spending generally contributes to improved league performance, investment efficiency varies substantially between clubs. Ultimately, successful recruitment depends not only on the amount invested but also on how effectively clubs convert financial investment into on-field performance.
