@@ -1,15 +1,3 @@
-SELECT TOP (10) [Season]
-      ,[Club]
-      ,[Player]
-      ,[Direction]
-      ,[Age]
-      ,[Nationality]
-      ,[Position]
-      ,[Market_Value_EUR_M]
-      ,[From_To]
-      ,[Fee_EUR_M]
-  FROM [PremierLeagueAnalytics].[dbo].[Transfer Data]
-
 SELECT 
       Season, 
       Club,
