@@ -1,0 +1,37 @@
+SELECT TOP (10) [Season]
+      ,[Club]
+      ,[Player]
+      ,[Direction]
+      ,[Age]
+      ,[Nationality]
+      ,[Position]
+      ,[Market_Value_EUR_M]
+      ,[From_To]
+      ,[Fee_EUR_M]
+  FROM [PremierLeagueAnalytics].[dbo].[Transfer Data]
+
+SELECT 
+      Season, 
+      Club,
+      SUM(CASE
+             WHEN Direction = 'In' THEN 1
+             ELSE 0
+          END) AS Players_In,
+      SUM(CASE
+             WHEN Direction = 'Out' THEN 1
+             ELSE 0
+          END) AS Players_Out,
+      SUM(CASE
+             WHEN Direction = 'In' THEN Fee_EUR_M
+             ELSE 0
+          END) AS Total_Spend_EUR_M,
+      SUM(CASE
+             WHEN Direction = 'Out' THEN Fee_EUR_M
+             ELSE 0
+          END) AS Total_Income_EUR_M,
+      SUM(CASE WHEN Direction = 'In' THEN Fee_EUR_M ELSE 0 END) 
+      - 
+      SUM(CASE WHEN Direction = 'Out' THEN Fee_EUR_M ELSE 0 END) 
+      AS Net_Spend_EUR_M
+FROM PremierLeagueAnalytics.dbo.[Transfer Data]
+GROUP BY Season, Club
