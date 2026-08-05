@@ -21,9 +21,48 @@ This raises an important business question:
 **Are Premier League clubs generating value for money from their transfer spending?**
 
 ## Objectives
+### Business Objectives
+- Investigate the relationship between Premier League transfer spending and league performance.
+- Develop a custom metric used to interpret Transfer Value Efficiency .
+- Identify clubs that outperformed or underperformed relative to their investment.
 
+### Learning Objectives
+- Build my first end-to-end business analytics project by applying recently developed SQL skills to a real-world scenario, using a topic of personal interest to strengthen both technical and analytical skills.
+- Develop practical experience in Power BI, DAX, data modelling and dashboard design.
+- Strengthen my ability to communicate insights through effective data storytelling.
 
 ## Methodology
+The project followed an end-to-end business analytics workflow:
+
+### 1. Data Collection
+- Collected Premier League fixture results for the 2023/24–2025/26 seasons.
+- Manually compiled player transfer data from Transfermarkt into an excel sheet.
+
+### 2. Data Preparation
+- Imported the datasets into **Microsoft SQL Server**.
+- Cleaned and standardised the data to ensure consistency across seasons.
+- Created SQL queries to calculate league statistics and aggregate transfer spending by club and season.
+
+### 3. Data Modelling
+- Imported the transformed datasets into **Power BI**.
+- Built a relational data model linking league performance and transfer data.
+- Developed DAX measures to calculate KPIs, rankings and the custom **Transfer Value Efficiency** metric.
+
+### 4. Dashboard Development
+- Designed an interactive dashboard featuring KPI cards, dynamic visualisations, report-page tooltips and conditional formatting.
+- Used case studies to investigate notable club-seasons and communicate analytical insights.
+
+## Data Sources
+The project combines data from multiple publicly available sources:
+
+- **Football-Data.co.uk** – Premier League fixture results and league standings (2023/24–2025/26).
+- **Transfermarkt** – Player transfer activity, transfer spending and transfer income.
+
+### Data Assumptions
+- Transfer fees marked as "?" were treated as NULL.
+- Players marked as "Without Club" and were treated as €0.
+- Loan transfers were excluded.
+- Only Premier League matches were included when calculating league points.
 
 ## Transfer Value Efficiency Metric
 Traditional transfer analysis often focuses on total spending, but this doesn't indicate whether a club spent its money effectively.
@@ -102,5 +141,46 @@ This suggests that simply increasing transfer expenditure does not guarantee imp
 > **Note:** Detailed versions of these case studies, including the full context and interpretation, are available in [Case Studies.md](Case%20Studies.md).
 
 ## Skills Demonstrated
+### Technologies & Tools
+- SQL
+- Microsoft SQL Server
+- SQL Server Management Studio (SMSS)
+- Power BI
+- DAX
+- GitHub
+- Microsoft Excel
+
+### Technical Skills
+- Data Cleaning & Transformation
+- Relational Data Modelling
+- KPI Development
+- Interactive Dashboard Development
+- Data Visualisation
+
+### Analytical Skills
+- Business Analytics
+- Financial Analysis
+- Data Storytelling
+- Trend & Correlation Analysis
+- Investment Efficiency Analysis
+- Problem Solving
+
+This project demonstrates the ability to collect, transform, analyse and communicate data through an end-to-end business analytics workflow, from SQL data preparation through to interactive Power BI dashboard development and insight generation.
+
 ## Limitations
+- **Transfer fees only:** The analysis considers transfer expenditure but does not include player wages, signing bonuses, agent fees or other operating costs that contribute to total squad investment.
+- **Accounting treatment:** Transfer spending is analysed using total transfer fees and does not account for Profitability and Sustainability Rules (PSR) or the amortisation of transfer fees over player contracts.
+- **Transfer fees as a proxy for value:** Transfer fees do not necessarily reflect a player's long-term contribution or overall value to a club. Factors such as player development, fitness and injuries can significantly influence performance after a transfer.
+- **External factors:** League performance is influenced by many variables beyond transfer spending, including injuries, managerial changes, tactical approaches and fixture difficulty.
+- **Three-season sample:** The analysis covers the 2023/24–2025/26 Premier League seasons. A longer time horizon may reveal different trends and reduce the influence of unusual seasons.
+- **Custom metric scope:** The Transfer Value Efficiency metric evaluates league points relative to transfer spending. While useful for comparing investment efficiency, it does not capture every aspect of club performance or long-term financial sustainability.
+
 ## Future Improvements
+Potential future improvements include:
+
+- Incorporate player wages, signing bonuses and agent fees to provide a more comprehensive measure of squad investment.
+- Incorporate *Profitability and Sustainability Rules (PSR)* and transfer fee amortisation to better reflect the financial impact of transfers.
+- Expand the analysis to additional Premier League seasons to identify longer-term trends.
+- Extend the project to other European leagues for cross-league comparison.
+- Include advanced football metrics (e.g. Expected Goals (xG), possession statistics and defensive performance) to provide additional context beyond league points.
+- Develop predictive models to estimate future league performance based on transfer activity and historical trends.
