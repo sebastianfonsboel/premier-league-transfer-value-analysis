@@ -19,12 +19,12 @@ This raises an important business question:
 **Are Premier League clubs generating value for money from their transfer spending?**
 
 ## Objectives
-### Business Objectives
+#### Business Objectives
 - Investigate the relationship between Premier League transfer spending and league performance.
 - Develop a custom metric used to interpret Transfer Value Efficiency.
 - Identify clubs that outperformed or underperformed relative to their investment.
 
-### Learning Objectives
+#### Learning Objectives
 - Build my first end-to-end business analytics project by applying recently developed SQL skills to a real-world scenario, using a topic of personal interest to strengthen both technical and analytical skills.
 - Develop practical experience in Power BI, DAX, data modelling and dashboard design.
 - Strengthen my ability to communicate insights through effective data storytelling.
@@ -32,21 +32,21 @@ This raises an important business question:
 ## Methodology
 The project followed an end-to-end business analytics workflow:
 
-### 1. Data Collection
+#### 1. Data Collection
 - Collected Premier League fixture results for the 2023/24–2025/26 seasons.
 - Manually compiled player transfer data from Transfermarkt into an excel sheet.
 
-### 2. Data Preparation
+#### 2. Data Preparation
 - Imported the datasets into **Microsoft SQL Server**.
 - Cleaned and standardised the data to ensure consistency across seasons.
 - Created SQL queries to calculate league statistics and aggregate transfer spending by club and season.
 
-### 3. Data Modelling
+#### 3. Data Modelling
 - Imported the transformed datasets into **Power BI**.
 - Built a relational data model linking league performance and transfer data.
 - Developed DAX measures to calculate KPIs, rankings and the custom **Transfer Value Efficiency** metric.
 
-### 4. Dashboard Development
+#### 4. Dashboard Development
 - Designed an interactive dashboard featuring KPI cards, dynamic visualisations, report-page tooltips and conditional formatting.
 - Used case studies to investigate notable club-seasons and communicate analytical insights.
 
@@ -56,7 +56,7 @@ The project combines data from multiple publicly available sources:
 - **Football-Data.co.uk** – Premier League fixture results and league standings (2023/24–2025/26).
 - **Transfermarkt** – Player transfer activity, transfer expenditure and transfer income.
 
-### Data Assumptions
+#### Data Assumptions
 - Transfer fees marked as "?" were treated as NULL.
 - Players marked as "Without Club" were treated as €0.
 - Loan transfers were excluded.
@@ -78,21 +78,21 @@ Higher values indicate clubs converted transfer expenditure into league performa
 ## Dashboard Features
 The dashboard was designed to have an intuitive layout and enable interactive exploration of Premier League transfer spending and league performance across the 2023/24-2025/26 seasons.
 
-### Filtering
+#### Filtering
 - Filter analysis by **Season** and **Club** using interactive slicers, applied to the whole dashboard.
 - Club slicer includes a search function for quick navigation.
 
-### KPI Summary
+#### KPI Summary
 - Total Transfer Spend (€m)
 - Total Transfer Income (€m)
 - Average League Points
 - Transfer Value Efficiency (Points per €10 Million Spent)
 
-### Visualisations
+#### Visualisations
 - **Scatter plot:** explores the relationship between transfer spending and league performance, with a trend line highlighting the overall relationship.
 - **Horizontal Bar Chart:** Ranks every club-season by **Transfer Value Efficiency**, highlighting the highest and lowest-performing clubs in this statistic.
 
-### Interactive Features
+#### Interactive Features
 - Custom report-page tooltips displaying detailed club-season statistics.
 - Dynamic chart titles that update based on selected season.
 - Information buttons providing additional context and metric definitions.
@@ -139,7 +139,7 @@ This suggests that simply increasing transfer expenditure does not guarantee imp
 > **Note:** Detailed versions of these case studies, including the full context and interpretation, are available in [Case Studies.md](Case%20Studies.md).
 
 ## Skills Demonstrated
-### Technologies & Tools
+#### Technologies & Tools
 - SQL
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
@@ -148,14 +148,14 @@ This suggests that simply increasing transfer expenditure does not guarantee imp
 - GitHub
 - Microsoft Excel
 
-### Technical Skills
+#### Technical Skills
 - Data Cleaning & Transformation
 - Relational Data Modelling
 - KPI Development
 - Interactive Dashboard Development
 - Data Visualisation
 
-### Analytical Skills
+#### Analytical Skills
 - Business Analytics
 - Financial Analysis
 - Data Storytelling
