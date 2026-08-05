@@ -17,6 +17,7 @@ In 2023/24 Luton Town placed 18th were relegated (red), however they ranked in t
 This helps prove that frugal and efficient recruitment alone isn’t always sufficient to achieve Premier League survival. While Luton Town used their transfer funds efficiently, the overall scale of investment may have been insufficient to compete with clubs who have significantly larger financial
 
 ## Case Study 2: Liverpool FC (2024/25)
+<img width="320" height="340" alt="image" src="https://github.com/user-attachments/assets/89ddea1e-d850-416a-9303-d1200a6ef0d3" />
 
 In 2024/25 Liverpool FC placed 1st, lifting the Premier League trophy, whilst also ranking 1st for Value Efficiency (both gold).
 
