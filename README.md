@@ -182,6 +182,7 @@ Potential future improvements include:
 - Extend the project to other European leagues for cross-league comparison.
 - Include advanced football metrics (e.g. Expected Goals (xG), possession statistics and defensive performance) to provide additional context beyond league points.
 - Develop predictive models to estimate future league performance based on transfer activity and historical trends.
+- Learn how to add comments to SQL Queries.
 
 ## Conclusion
 This project demonstrates how SQL and Power BI can be combined to transform raw football and transfer market data into actionable business insights.
