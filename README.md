@@ -9,11 +9,11 @@ The project introduces a custom **Transfer Value Efficiency** metric to evaluate
 ## Project Files
 #### Interactive Dashboard (PBIX) – Power BI project file.
 Download the interactive Power BI dashboard:
-[EPL-Transfer-Value-Analysis.pbix](EPL-Transfer-Value-Analysis.pbix)
+[Premier-League-Transfer-Value-Analysis.pbix](Premier-League-Transfer-Value-Analysis.pbix)
 
 #### Dashboard Report (PDF) – Static version of the dashboard.
 Download the Power BI dashboard PDF:
-[EPL-Transfer-Value-Analysis.pdf](EPL-Transfer-Value-Analysis.pdf)
+[Premier-League-Transfer-Value-Analysis.pdf](Premier-League-Transfer-Value-Analysis.pdf)
 
 #### SQL Queries – SQL scripts used for data preparation and aggregation.
 Available in the `/SQL` folder.
