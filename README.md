@@ -23,7 +23,7 @@ This raises an important business question:
 ## Objectives
 ### Business Objectives
 - Investigate the relationship between Premier League transfer spending and league performance.
-- Develop a custom metric used to interpret Transfer Value Efficiency .
+- Develop a custom metric used to interpret Transfer Value Efficiency.
 - Identify clubs that outperformed or underperformed relative to their investment.
 
 ### Learning Objectives
