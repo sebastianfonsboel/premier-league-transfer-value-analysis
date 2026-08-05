@@ -36,6 +36,7 @@ Liverpool’s 2024/25 league campaign stands out as an outlier within the datase
 This suggests that success isn’t solely dependent on significant transfer spending. In Liverpool’s case, creating value by maximising the current squad of players rather than investing heavily in transfers, proved to be just as important means to achieving Premier League success.
 
 ## Case Study 3: Chelsea (2023/24)
+<img width="320" height="340" alt="image" src="https://github.com/user-attachments/assets/7cc5d4bb-96b3-4d2c-bb06-122f00697fb9" />
 
 In 2023/24 Chelsea placed 6th, securing a place in a European competition (orange), but ranked last/20th for Value Efficiency (red).
 
