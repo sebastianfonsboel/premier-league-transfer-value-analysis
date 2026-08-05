@@ -6,6 +6,21 @@ The project introduces a custom **Transfer Value Efficiency** metric to evaluate
 ## Dashboard Preview
 <img width="2200" height="1300" alt="image" src="https://github.com/user-attachments/assets/1bda443c-a98d-4aa6-a7c9-3ff2524b8821" />
 
+## Project Files
+#### Interactive Dashboard (PBIX) – Power BI project file.
+Download the interactive Power BI dashboard:
+[EPL-Transfer-Value-Analysis.pbix](EPL-Transfer-Value-Analysis.pbix)
+
+#### Dashboard Report (PDF) – Static version of the dashboard.
+Download the Power BI dashboard PDF:
+[EPL-Transfer-Value-Analysis.pdf](EPL-Transfer-Value-Analysis.pdf)
+
+#### SQL Queries – SQL scripts used for data preparation and aggregation.
+Available in the `/SQL` folder.
+
+#### Detailed Case Studies – Extended analysis and interpretation.
+Available in the `/Docs` folder.
+
 ## Project Overview
 This project investigates the relationship between transfer spending and Premier League performance across the 2023/24–2025/26 seasons. Rather than focusing solely on total transfer spending, the analysis introduces a custom **Transfer Value Efficiency** metric to evaluate how effectively clubs converted transfer investment into league points.
 
