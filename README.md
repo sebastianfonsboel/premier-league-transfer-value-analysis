@@ -24,6 +24,7 @@ This raises an important business question:
 
 
 ## Methodology
+
 ## Transfer Value Efficiency Metric
 Traditional transfer analysis often focuses on total spending, but this doesn't indicate whether a club spent its money effectively.
 
@@ -35,11 +36,50 @@ To address this, I developed a custom **Transfer Value Efficiency** metric:
 
 This measures how many Premier League points a club generated for every €10 million invested in player transfers.
 
-Higher values indicate clubs converted transfer expenditure into league performance more efficiently, enabling comparisons between clubs regardless of their overall transfer budget.
+Higher values indicate clubs converted transfer expenditure into league performance more efficiently, meaning easier comparisons between clubs regardless of their overall transfer budget.
 
 ## Dashboard Features
+The dashboard was designed to have an intuitive layout and enable interactive exploration of Premier League transfer spending and league performance across the 2023/24-2025/26 seasons.
+
+### Filtering
+- Filter analysis by **Season** and **Club** using interactive slicers, applied to the whole dashboard.
+- Club slicer includes a search function for quick navigation.
+
+### KPI Summary
+- Total Transfer Spend (€m)
+- Total Transfer Income (€m)
+- Average League Points
+- Transfer Value Efficiency (Points per €10 Million Spent)
+
+### Visualisations
+- **Scatter plot:** explores the relationship between transfer spending and league performance, with a trend line highlighting the overall relationship.
+- **Horizontal Bar Chart:** Ranks every club by **Transfer Value Efficiency**, highlighting the highest and lowest-performing clubs in this statistic.
+
+### Interactive Features
+- Custom report-page tooltips displaying detailed club-season statistics.
+- Dynamic chart titles that update based on selected season.
+- Information buttons providing additional context and metric definitions.
+- Conditional formatting to quickly identify standout and underperforming club-seasons.
+
 ## Key Insights
+The analysis identified several notable insights across the 2023/24–2025/26 Premier League seasons:
+
+- Higher transfer spending generally showed a positive relationship with league performance, although clubs varied considerably in how efficiently they converted investment into league points.
+- Clubs that spent more were not always the most efficient, highlighting that greater investment does not necessarily produce greater value.
+- The custom **Transfer Value Efficiency** metric revealed clubs that significantly outperformed or underperformed relative to their transfer expenditure.
+- Efficient recruitment alone was not always sufficient for success, as demonstrated by clubs such as Luton Town in the 2023/24 season, where a relatively low level of transfer investment limited the club's ability to compete despite strong spending efficiency.
+- Maximising the performance of an existing squad can be just as valuable as significant transfer investment, as demonstrated by Liverpool's 2024/25 Premier League-winning season.
+
 ## Case Studies
+> **Note:** The screenshots below are taken from the dashboard's custom report-page tooltips, providing detailed statistics for each highlighted club-season.
+### CASE STUDY 1: 2023/24 Luton Town
+<img width="320" height="340" alt="image" src="https://github.com/user-attachments/assets/5d128886-2021-4dab-924c-2dc0f992a57a" /> 
+
+
+### CASE STUDY 2: 2024/25 Liverpool FC
+<img width="320" height="340" alt="image" src="https://github.com/user-attachments/assets/89ddea1e-d850-416a-9303-d1200a6ef0d3" />
+
+
 ## Skills Demonstrated
 ## Limitations
 ## Future Improvements
