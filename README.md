@@ -29,11 +29,14 @@ Traditional transfer analysis often focuses on total spending, but this doesn't 
 
 To address this, I developed a custom **Transfer Value Efficiency** metric:
 
-**Transfer Value Efficiency = (League Points ÷ Total Transfer Spend) x €10 million**
+**Transfer Value Efficiency = (League Points ÷ Total Transfer Spend) x 10**
+
+*Also referred to as **Points per €10 million Spent**.*
 
 This measures how many Premier League points a club generated for every €10 million invested in player transfers.
 
 Higher values indicate clubs converted transfer expenditure into league performance more efficiently, enabling comparisons between clubs regardless of their overall transfer budget.
+
 ## Dashboard Features
 ## Key Insights
 ## Case Studies
