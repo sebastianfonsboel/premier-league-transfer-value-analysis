@@ -99,7 +99,7 @@ This suggests that simply increasing transfer expenditure does not guarantee imp
 
 **Key Takeaway:** Successful recruitment depends not only on the amount invested but also on acquiring the right players to build a balanced and cohesive squad.
 
-> **Note:** Detailed versions of these case studies, including the full context and interpretation, are available in [Docs/Case Studies.md](Docs/Case%20Studies.md).
+> **Note:** Detailed versions of these case studies, including the full context and interpretation, are available in [Case Studies.md](Case%20Studies.md).
 
 ## Skills Demonstrated
 ## Limitations
