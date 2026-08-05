@@ -72,13 +72,34 @@ The analysis identified several notable insights across the 2023/24–2025/26 Pr
 
 ## Case Studies
 > **Note:** The screenshots below are taken from the dashboard's custom report-page tooltips, providing detailed statistics for each highlighted club-season.
-### CASE STUDY 1: 2023/24 Luton Town
+### Case Study 1: 2023/24 Luton Town
 <img width="320" height="340" alt="image" src="https://github.com/user-attachments/assets/5d128886-2021-4dab-924c-2dc0f992a57a" /> 
 
+Despite finishing 18th and being relegated, Luton Town ranked among the top five clubs for Transfer Value Efficiency. The club generated strong value from a relatively small transfer budget, recording one of the highest Points per €10 Million Spent in the dataset.
 
-### CASE STUDY 2: 2024/25 Liverpool FC
+As a newly promoted club, Luton appeared to adopt a conservative transfer strategy, limiting financial risk rather than making significant investment in an attempt to secure Premier League survival.
+
+**Key Takeaway:** Efficient recruitment alone was not sufficient to avoid relegation. Luton Town demonstrates that while transfer spending efficiency is important, the overall scale of investment also plays a significant role in remaining competitive in the Premier League.
+
+### Case Study 2: 2024/25 Liverpool FC
 <img width="320" height="340" alt="image" src="https://github.com/user-attachments/assets/89ddea1e-d850-416a-9303-d1200a6ef0d3" />
 
+Liverpool won the Premier League while recording the highest Transfer Value Efficiency across all three seasons analysed, generating 20.0 Points per €10 Million Spent. Despite entering a new managerial era under Arne Slot, the club invested relatively little in the transfer market compared with many of its direct competitors.
+
+Rather than relying on major transfer expenditure, Liverpool appeared to maximise the performance of an already strong squad, producing the most efficient season in the dataset.
+
+**Key Takeaway:** Liverpool's 2024/25 campaign demonstrates that Premier League success is not solely dependent on significant transfer spending. Maximising the value of an existing squad can be just as important as investing heavily in new players.
+
+### Case Study 3: 2023/24 Chelsea
+<img width="320" height="340" alt="image" src="https://github.com/user-attachments/assets/7cc5d4bb-96b3-4d2c-bb06-122f00697fb9" />
+
+Chelsea recorded one of the highest transfer expenditures in the dataset (€448.1m) but ranked last for Transfer Value Efficiency, generating only 1.41 Points per €10 Million Spent. Despite substantial investment, the club finished sixth and failed to achieve a level of league performance that would typically be expected from such spending.
+
+This suggests that simply increasing transfer expenditure does not guarantee improved outcomes.
+
+**Key Takeaway:** Successful recruitment depends not only on the amount invested but also on acquiring the right players to build a balanced and cohesive squad.
+
+> **Note:** Detailed versions of these case studies, including the full context and interpretation, are available in [Docs/Case Studies.md](Docs/Case%20Studies.md).
 
 ## Skills Demonstrated
 ## Limitations
