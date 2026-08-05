@@ -1,21 +1,3 @@
-SELECT TOP (10) [Season]
-      ,[MatchDate]
-      ,[KOTime]
-      ,[HomeTeam]
-      ,[AwayTeam]
-      ,[FTHG]
-      ,[FTAG]
-      ,[FTR]
-      ,[HTHG]
-      ,[HTAG]
-      ,[HTR]
-      ,[Referee]
-      ,[HS]
-      ,[AS]
-      ,[HST]
-      ,[AST]
-  FROM [PremierLeagueAnalytics].[dbo].[EPL Fixture Results]
-
 With Combined_Home_Away AS
 (
     SELECT 
